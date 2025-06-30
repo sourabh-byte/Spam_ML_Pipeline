@@ -133,6 +133,6 @@ def main():
     except Exception as e:
         logger.error('Failed to complete the model evaluation process: %s', e)
         print(f"Error: {e}")
-
+        print('blah')
 if __name__ == '__main__':
     main()
